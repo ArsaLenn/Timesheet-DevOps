@@ -6,7 +6,7 @@ pipeline {
         REGISTRY_USER   = "arsaaa"
         REGISTRY_IMAGE  = "arsaaa/backend-app:latest"
         NETWORK_NAME    = "timesheet-net"
-        MYSQL_URL       = "jdbc:mysql://mysql:3306/timesheet-devops-db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
+        MYSQL_URL       = "jdbc:mysql://mysql:3306/timesheet-devops-db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true"
     }
 
     stages {
